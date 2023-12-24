@@ -1,5 +1,12 @@
+/*
+function add(a, b) {
+  return a + b;
+}
+module.exports = add;
+*/
+////////// Es6 Method //////////
 function add(a, b) {
   return a + b;
 }
 
-module.exports = add;
+export default add;
