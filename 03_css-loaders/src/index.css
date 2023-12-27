@@ -1,0 +1,13 @@
+#header{
+    text-decoration: underline;
+    color: blue;
+}
+:global(.button){
+    background: yellow;
+    color: #fff;
+}
+
+/* .button{
+    background: yellow;
+    color: #fff;
+} */
