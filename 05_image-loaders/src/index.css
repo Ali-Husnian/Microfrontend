@@ -1,0 +1,12 @@
+#header{
+    text-decoration: underline;
+    color: blue;
+}
+/* :global(.button){         // Gegreate error image loader   ->Fix this remove global style
+    background: yellow;
+    color: #fff;
+} */
+.button{
+    background: yellow;
+    color: #fff;
+}
