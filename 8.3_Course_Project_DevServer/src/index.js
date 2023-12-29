@@ -4,6 +4,7 @@ import Typed from "typed.js";
 import validate from "validate.js";
 import toastr from "toastr";
 import bootstrap from "bootstrap";
+// import banner_image from "./assets/banner-image.png";
 
 import "./index.css";
 import "./_vender.scss";
@@ -35,6 +36,7 @@ $("#subscribeBtn").on("click", (e) => {
     toastr.error("Invalid email address is entered!");
   }
 });
+// Banner Image
 
 // Build footer items
 function buildFooterItems(footerCol, itemsArr) {
@@ -56,3 +58,6 @@ const footerCol3 = $("#footer-column-3")[0];
 buildFooterItems(footerCol1, footerCol1Items);
 buildFooterItems(footerCol2, footerCol2Items);
 buildFooterItems(footerCol3, footerCol3Items);
+
+// const BannerImg = $("#banner-image")[0];
+// BannerImg.src = banner_image;
