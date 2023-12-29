@@ -1,9 +1,9 @@
-import bootstrap from 'bootstrap';
-import $ from 'jquery';
-import typed from 'typed.js';
-import validate from 'validate.js';
-import toastr from 'toastr';
-import _ from 'lodash';
+import bootstrap from "bootstrap";
+import $ from "jquery";
+import typed from "typed.js";
+import validate from "validate.js";
+import toastr from "toastr";
+import _ from "lodash";
 
 import "../index.css";
 import "../_vendor.scss";
